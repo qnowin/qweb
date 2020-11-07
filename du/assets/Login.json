@@ -1,0 +1,42 @@
+{
+    "schema": {
+      "type": "object",
+      "title": "Login",
+      "properties": {
+        "email": {
+          "title": "Email",
+          "type": "string",
+          "pattern": "^\\S+@\\S+$"
+        },
+        "password": {
+          "title": "Password",
+          "type": "string"
+        }
+      },
+      "required": [
+        "email",
+        "password"
+      ]
+    },
+    "form": [
+      "email",
+      {
+        "key": "Password",
+        "type": "password"
+      },
+      {
+        "type": "submit",
+        "style": "btn-info",
+        "title": "Login"
+      }
+    ],
+  "layout": [
+     { "type": "flex", "flex-flow": "row wrap", "items": [ "email" ] },
+     { "type": "flex", "flex-flow": "row wrap", "items": [ "password" ] }
+  ],
+  "data": {
+     "email": "kwchess@gmail.com",
+     "password": "password",
+     "ACCESS": "d"
+  }
+}
