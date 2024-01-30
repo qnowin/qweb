@@ -1,4 +1,33 @@
-Service Counter <a href="/qsc">click here</a>
-Display  <a href="/qdisp">click here</a>
-Admin <a href="/qweb">click here</a>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Centered Links</title>
+<style>
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
 
+  .link-container {
+    text-align: center;
+  }
+
+  .link-container span {
+    display: block;
+    margin-bottom: 10px;
+  }
+</style>
+</head>
+<body>
+  <div class="link-container">
+    <span>Service Counter <a href="/qsc">click here</a></span>
+    <span>Display <a href="/qdisp">click here</a></span>
+    <span>Admin <a href="/qweb">click here</a></span>
+  </div>
+</body>
+</html>
