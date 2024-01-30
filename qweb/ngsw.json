@@ -1,0 +1,66 @@
+{
+  "configVersion": 1,
+  "timestamp": 1706655787211,
+  "index": "/qweb/index.html",
+  "assetGroups": [
+    {
+      "name": "qweb",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/qweb/favicon.ico",
+        "/qweb/index.html",
+        "/qweb/main.js",
+        "/qweb/manifest.webmanifest",
+        "/qweb/polyfills.js",
+        "/qweb/runtime.js",
+        "/qweb/styles.css",
+        "/qweb/vendor.js"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/qweb/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/qweb/index.html": "c2bc244382675651657fa9cfbac698926c8a1707",
+    "/qweb/main.js": "ff7753afc8f8222307b4535cdbc50010c30fe04e",
+    "/qweb/manifest.webmanifest": "40324117b3e478dd873ecff1f3b44f770ba2b403",
+    "/qweb/polyfills.js": "635310d2d61fa1966f42da7af619c38005d3b927",
+    "/qweb/runtime.js": "0c8c4f8880104aa8a87b9177dbbd103f269bff4b",
+    "/qweb/styles.css": "098ecee0b178ad59f4789c15384773b45cba9018",
+    "/qweb/vendor.js": "fbf8e27f0b27d0a7626bbd62818fde3f7b1db904"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
