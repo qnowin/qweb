@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1706656009019,
+  "timestamp": 1706656085272,
   "index": "/qsc/index.html",
   "assetGroups": [
     {
@@ -56,7 +56,7 @@
     "/qsc/assets/icons/icon-96x96.png": "592885efcbfee27e5e20be4fa3043589390d2740",
     "/qsc/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
     "/qsc/index.html": "46adcd41b6eeb4bb1c33badb311bddddf17e674b",
-    "/qsc/main.js": "5b3276d75f3a5c90b047c24bd221f1bea24324dd",
+    "/qsc/main.js": "1d2c5aefcbb47b0bbc474049620929b05c85adf1",
     "/qsc/manifest.webmanifest": "2178c68e38709768a595c30c9dc9f52256208498",
     "/qsc/polyfills.js": "03361dd40aae8d3780eec837b82e794ccedbe5e7",
     "/qsc/runtime.js": "d389dc083519ab08a4f77a568307b116f63f7af2",
