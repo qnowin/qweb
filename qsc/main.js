@@ -433,25 +433,26 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   AppModule: () => (/* binding */ AppModule)
 /* harmony export */ });
-/* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @angular/platform-browser */ 36480);
+/* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @angular/platform-browser */ 36480);
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @angular/core */ 61699);
-/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @angular/forms */ 28849);
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @angular/forms */ 28849);
 /* harmony import */ var _app_routing_module__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./app-routing.module */ 23966);
 /* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./app.component */ 66401);
-/* harmony import */ var _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! @angular/platform-browser/animations */ 24987);
+/* harmony import */ var _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! @angular/platform-browser/animations */ 24987);
 /* harmony import */ var _material_module__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./material.module */ 29099);
-/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @angular/common/http */ 54860);
-/* harmony import */ var ngx_webstorage_service__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ngx-webstorage-service */ 4878);
-/* harmony import */ var _ajsf_bootstrap4__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! @ajsf/bootstrap4 */ 8834);
-/* harmony import */ var _ajsf_material__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! @ajsf/material */ 35339);
+/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! @angular/common/http */ 54860);
+/* harmony import */ var ngx_webstorage_service__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ngx-webstorage-service */ 4878);
+/* harmony import */ var _ajsf_bootstrap4__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! @ajsf/bootstrap4 */ 8834);
+/* harmony import */ var _ajsf_material__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! @ajsf/material */ 35339);
 /* harmony import */ var _login_login_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./login/login.component */ 2014);
 /* harmony import */ var _next_in_q_next_in_q_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./next-in-q/next-in-q.component */ 44989);
 /* harmony import */ var _available_service_available_service_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./available-service/available-service.component */ 78578);
-/* harmony import */ var ngx_pipes__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ngx-pipes */ 54901);
-/* harmony import */ var _angular_service_worker__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! @angular/service-worker */ 51509);
+/* harmony import */ var ngx_pipes__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ngx-pipes */ 54901);
+/* harmony import */ var _angular_service_worker__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! @angular/service-worker */ 51509);
 /* harmony import */ var _app_environments_environment__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../app/environments/environment */ 81594);
-/* harmony import */ var _angular_material_grid_list__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! @angular/material/grid-list */ 647);
-/* harmony import */ var _angular_material_card__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! @angular/material/card */ 18497);
+/* harmony import */ var _angular_material_grid_list__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! @angular/material/grid-list */ 647);
+/* harmony import */ var _angular_material_card__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! @angular/material/card */ 18497);
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @angular/common */ 26575);
 
 
 
@@ -475,6 +476,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+
 // import { TwilioService } from './twilio.service';
 // import { VideoComponent } from './video/video.component';
 class AppModule {
@@ -486,11 +488,15 @@ class AppModule {
     bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_1__.AppComponent]
   });
   static #_3 = this.ɵinj = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵdefineInjector"]({
-    imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_8__.BrowserModule, _angular_forms__WEBPACK_IMPORTED_MODULE_9__.FormsModule, _angular_forms__WEBPACK_IMPORTED_MODULE_9__.ReactiveFormsModule, _app_routing_module__WEBPACK_IMPORTED_MODULE_0__.AppRoutingModule, _material_module__WEBPACK_IMPORTED_MODULE_2__.MaterialModule, _angular_common_http__WEBPACK_IMPORTED_MODULE_10__.HttpClientModule, ngx_webstorage_service__WEBPACK_IMPORTED_MODULE_11__.StorageServiceModule, _ajsf_material__WEBPACK_IMPORTED_MODULE_12__.MaterialDesignFrameworkModule, _ajsf_bootstrap4__WEBPACK_IMPORTED_MODULE_13__.Bootstrap4FrameworkModule, ngx_pipes__WEBPACK_IMPORTED_MODULE_14__.NgPipesModule, _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_15__.NoopAnimationsModule, _angular_material_grid_list__WEBPACK_IMPORTED_MODULE_16__.MatGridListModule, _angular_material_card__WEBPACK_IMPORTED_MODULE_17__.MatCardModule,
+    providers: [{
+      provide: _angular_common__WEBPACK_IMPORTED_MODULE_8__.APP_BASE_HREF,
+      useValue: '/qsc/'
+    }],
+    imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_9__.BrowserModule, _angular_forms__WEBPACK_IMPORTED_MODULE_10__.FormsModule, _angular_forms__WEBPACK_IMPORTED_MODULE_10__.ReactiveFormsModule, _app_routing_module__WEBPACK_IMPORTED_MODULE_0__.AppRoutingModule, _material_module__WEBPACK_IMPORTED_MODULE_2__.MaterialModule, _angular_common_http__WEBPACK_IMPORTED_MODULE_11__.HttpClientModule, ngx_webstorage_service__WEBPACK_IMPORTED_MODULE_12__.StorageServiceModule, _ajsf_material__WEBPACK_IMPORTED_MODULE_13__.MaterialDesignFrameworkModule, _ajsf_bootstrap4__WEBPACK_IMPORTED_MODULE_14__.Bootstrap4FrameworkModule, ngx_pipes__WEBPACK_IMPORTED_MODULE_15__.NgPipesModule, _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_16__.NoopAnimationsModule, _angular_material_grid_list__WEBPACK_IMPORTED_MODULE_17__.MatGridListModule, _angular_material_card__WEBPACK_IMPORTED_MODULE_18__.MatCardModule,
     //    BrowserAnimationsModule,
-    _angular_service_worker__WEBPACK_IMPORTED_MODULE_18__.ServiceWorkerModule.register('ngsw-worker.js', {
+    _angular_service_worker__WEBPACK_IMPORTED_MODULE_19__.ServiceWorkerModule.register('ngsw-worker.js', {
       enabled: _app_environments_environment__WEBPACK_IMPORTED_MODULE_6__.environment.production
-    }), _angular_service_worker__WEBPACK_IMPORTED_MODULE_18__.ServiceWorkerModule.register('ngsw-worker.js', {
+    }), _angular_service_worker__WEBPACK_IMPORTED_MODULE_19__.ServiceWorkerModule.register('ngsw-worker.js', {
       enabled: !(0,_angular_core__WEBPACK_IMPORTED_MODULE_7__.isDevMode)(),
       // Register the ServiceWorker as soon as the application is stable
       // or after 30 seconds (whichever comes first).
@@ -501,7 +507,7 @@ class AppModule {
 (function () {
   (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵsetNgModuleScope"](AppModule, {
     declarations: [_app_component__WEBPACK_IMPORTED_MODULE_1__.AppComponent, _login_login_component__WEBPACK_IMPORTED_MODULE_3__.LoginComponent, _next_in_q_next_in_q_component__WEBPACK_IMPORTED_MODULE_4__.NextInQComponent, _available_service_available_service_component__WEBPACK_IMPORTED_MODULE_5__.AvailableServiceComponent],
-    imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_8__.BrowserModule, _angular_forms__WEBPACK_IMPORTED_MODULE_9__.FormsModule, _angular_forms__WEBPACK_IMPORTED_MODULE_9__.ReactiveFormsModule, _app_routing_module__WEBPACK_IMPORTED_MODULE_0__.AppRoutingModule, _material_module__WEBPACK_IMPORTED_MODULE_2__.MaterialModule, _angular_common_http__WEBPACK_IMPORTED_MODULE_10__.HttpClientModule, ngx_webstorage_service__WEBPACK_IMPORTED_MODULE_11__.StorageServiceModule, _ajsf_material__WEBPACK_IMPORTED_MODULE_12__.MaterialDesignFrameworkModule, _ajsf_bootstrap4__WEBPACK_IMPORTED_MODULE_13__.Bootstrap4FrameworkModule, ngx_pipes__WEBPACK_IMPORTED_MODULE_14__.NgPipesModule, _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_15__.NoopAnimationsModule, _angular_material_grid_list__WEBPACK_IMPORTED_MODULE_16__.MatGridListModule, _angular_material_card__WEBPACK_IMPORTED_MODULE_17__.MatCardModule, _angular_service_worker__WEBPACK_IMPORTED_MODULE_18__.ServiceWorkerModule, _angular_service_worker__WEBPACK_IMPORTED_MODULE_18__.ServiceWorkerModule]
+    imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_9__.BrowserModule, _angular_forms__WEBPACK_IMPORTED_MODULE_10__.FormsModule, _angular_forms__WEBPACK_IMPORTED_MODULE_10__.ReactiveFormsModule, _app_routing_module__WEBPACK_IMPORTED_MODULE_0__.AppRoutingModule, _material_module__WEBPACK_IMPORTED_MODULE_2__.MaterialModule, _angular_common_http__WEBPACK_IMPORTED_MODULE_11__.HttpClientModule, ngx_webstorage_service__WEBPACK_IMPORTED_MODULE_12__.StorageServiceModule, _ajsf_material__WEBPACK_IMPORTED_MODULE_13__.MaterialDesignFrameworkModule, _ajsf_bootstrap4__WEBPACK_IMPORTED_MODULE_14__.Bootstrap4FrameworkModule, ngx_pipes__WEBPACK_IMPORTED_MODULE_15__.NgPipesModule, _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_16__.NoopAnimationsModule, _angular_material_grid_list__WEBPACK_IMPORTED_MODULE_17__.MatGridListModule, _angular_material_card__WEBPACK_IMPORTED_MODULE_18__.MatCardModule, _angular_service_worker__WEBPACK_IMPORTED_MODULE_19__.ServiceWorkerModule, _angular_service_worker__WEBPACK_IMPORTED_MODULE_19__.ServiceWorkerModule]
   });
 })();
 

@@ -1,7 +1,7 @@
 {
   "configVersion": 1,
-  "timestamp": 1706628924428,
-  "index": "/index.html",
+  "timestamp": 1706655348361,
+  "index": "/qsc/index.html",
   "assetGroups": [
     {
       "name": "app",
@@ -11,14 +11,14 @@
         "ignoreVary": true
       },
       "urls": [
-        "/favicon.ico",
-        "/index.html",
-        "/main.js",
-        "/manifest.webmanifest",
-        "/polyfills.js",
-        "/runtime.js",
-        "/styles.css",
-        "/vendor.js"
+        "/qsc/favicon.ico",
+        "/qsc/index.html",
+        "/qsc/main.js",
+        "/qsc/manifest.webmanifest",
+        "/qsc/polyfills.js",
+        "/qsc/runtime.js",
+        "/qsc/styles.css",
+        "/qsc/vendor.js"
       ],
       "patterns": []
     },
@@ -30,38 +30,38 @@
         "ignoreVary": true
       },
       "urls": [
-        "/assets/Login.json",
-        "/assets/icons/icon-128x128.png",
-        "/assets/icons/icon-144x144.png",
-        "/assets/icons/icon-152x152.png",
-        "/assets/icons/icon-192x192.png",
-        "/assets/icons/icon-384x384.png",
-        "/assets/icons/icon-512x512.png",
-        "/assets/icons/icon-72x72.png",
-        "/assets/icons/icon-96x96.png"
+        "/qsc/assets/Login.json",
+        "/qsc/assets/icons/icon-128x128.png",
+        "/qsc/assets/icons/icon-144x144.png",
+        "/qsc/assets/icons/icon-152x152.png",
+        "/qsc/assets/icons/icon-192x192.png",
+        "/qsc/assets/icons/icon-384x384.png",
+        "/qsc/assets/icons/icon-512x512.png",
+        "/qsc/assets/icons/icon-72x72.png",
+        "/qsc/assets/icons/icon-96x96.png"
       ],
       "patterns": []
     }
   ],
   "dataGroups": [],
   "hashTable": {
-    "/assets/Login.json": "d925657ca9cfcb0ffd0a5d2dc4b5d9c11e5bdd7b",
-    "/assets/icons/icon-128x128.png": "b1f06c7d714abb4a0cc4d1f7c954feb26826e4c4",
-    "/assets/icons/icon-144x144.png": "96a0d629765c1bc85d9263c6bc83094ca776d267",
-    "/assets/icons/icon-152x152.png": "b1fbbee3902eb96a7658e3bb006f31f78ca5a44c",
-    "/assets/icons/icon-192x192.png": "e4211163bf0911688fbfb80278d8ff4d2f77691d",
-    "/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
-    "/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
-    "/assets/icons/icon-72x72.png": "279825a1ac4377032ae996a1832c641e33ccf1b6",
-    "/assets/icons/icon-96x96.png": "592885efcbfee27e5e20be4fa3043589390d2740",
-    "/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "/index.html": "b2fec300c6b0497029b2bf546edfc98bde7780c8",
-    "/main.js": "1d2c5aefcbb47b0bbc474049620929b05c85adf1",
-    "/manifest.webmanifest": "2178c68e38709768a595c30c9dc9f52256208498",
-    "/polyfills.js": "03361dd40aae8d3780eec837b82e794ccedbe5e7",
-    "/runtime.js": "d389dc083519ab08a4f77a568307b116f63f7af2",
-    "/styles.css": "e0a5d17588ee3cd170e91b8fa24905f3432a1c4c",
-    "/vendor.js": "a9f46a37d91b349d719ed5ef044e92c2177b9f3c"
+    "/qsc/assets/Login.json": "d925657ca9cfcb0ffd0a5d2dc4b5d9c11e5bdd7b",
+    "/qsc/assets/icons/icon-128x128.png": "b1f06c7d714abb4a0cc4d1f7c954feb26826e4c4",
+    "/qsc/assets/icons/icon-144x144.png": "96a0d629765c1bc85d9263c6bc83094ca776d267",
+    "/qsc/assets/icons/icon-152x152.png": "b1fbbee3902eb96a7658e3bb006f31f78ca5a44c",
+    "/qsc/assets/icons/icon-192x192.png": "e4211163bf0911688fbfb80278d8ff4d2f77691d",
+    "/qsc/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/qsc/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/qsc/assets/icons/icon-72x72.png": "279825a1ac4377032ae996a1832c641e33ccf1b6",
+    "/qsc/assets/icons/icon-96x96.png": "592885efcbfee27e5e20be4fa3043589390d2740",
+    "/qsc/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/qsc/index.html": "46adcd41b6eeb4bb1c33badb311bddddf17e674b",
+    "/qsc/main.js": "5b3276d75f3a5c90b047c24bd221f1bea24324dd",
+    "/qsc/manifest.webmanifest": "2178c68e38709768a595c30c9dc9f52256208498",
+    "/qsc/polyfills.js": "03361dd40aae8d3780eec837b82e794ccedbe5e7",
+    "/qsc/runtime.js": "d389dc083519ab08a4f77a568307b116f63f7af2",
+    "/qsc/styles.css": "e0a5d17588ee3cd170e91b8fa24905f3432a1c4c",
+    "/qsc/vendor.js": "a9f46a37d91b349d719ed5ef044e92c2177b9f3c"
   },
   "navigationUrls": [
     {
