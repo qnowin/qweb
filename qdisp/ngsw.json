@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1706629996197,
+  "timestamp": 1706656220772,
   "index": "/qdisp/index.html",
   "assetGroups": [
     {
@@ -61,7 +61,7 @@
     "/qdisp/color.png": "ff4c4bcb2207891b292f544edb4da9d2df5d45cf",
     "/qdisp/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
     "/qdisp/hue.png": "f81ae627637a684614aa726e206c73ce099a01fd",
-    "/qdisp/index.html": "cfed2636f1493de2e102e80486f68252b44c2f0a",
+    "/qdisp/index.html": "9cd4ffccb21aa68986551daf8357170a6a0b6e9b",
     "/qdisp/main.js": "6b218c085d347a2ec9154053763f0b0bc1423222",
     "/qdisp/manifest.webmanifest": "fc946022fe3e96cfe5f87eef2dcee900459a0332",
     "/qdisp/polyfills.js": "e1faedd43f9e19a8896580f64eed3847f19784b0",
