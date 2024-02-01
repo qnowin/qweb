@@ -4829,7 +4829,7 @@ class MqttStatusComponent extends abstract_mqtt__WEBPACK_IMPORTED_MODULE_0__.Mqt
   }
   getClientID() {
     return "admin-" + (0,uuid__WEBPACK_IMPORTED_MODULE_4__["default"])();
-    // return "admin-" + UUID.UUID();
+    // return "admin-" + uuidv4();
   }
 
   ngOnInit() {

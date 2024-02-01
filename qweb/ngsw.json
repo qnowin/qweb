@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1706656407141,
+  "timestamp": 1706759923358,
   "index": "/qweb/index.html",
   "assetGroups": [
     {
@@ -37,7 +37,7 @@
   "hashTable": {
     "/qweb/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
     "/qweb/index.html": "c2bc244382675651657fa9cfbac698926c8a1707",
-    "/qweb/main.js": "ff7753afc8f8222307b4535cdbc50010c30fe04e",
+    "/qweb/main.js": "c621ae58a6a9279d253d8998c95f22e69c545222",
     "/qweb/manifest.webmanifest": "40324117b3e478dd873ecff1f3b44f770ba2b403",
     "/qweb/polyfills.js": "635310d2d61fa1966f42da7af619c38005d3b927",
     "/qweb/runtime.js": "0c8c4f8880104aa8a87b9177dbbd103f269bff4b",
