@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1706656085272,
+  "timestamp": 1706759827978,
   "index": "/qsc/index.html",
   "assetGroups": [
     {
@@ -56,12 +56,12 @@
     "/qsc/assets/icons/icon-96x96.png": "592885efcbfee27e5e20be4fa3043589390d2740",
     "/qsc/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
     "/qsc/index.html": "46adcd41b6eeb4bb1c33badb311bddddf17e674b",
-    "/qsc/main.js": "1d2c5aefcbb47b0bbc474049620929b05c85adf1",
+    "/qsc/main.js": "9c73d39718699637920376464548c66e8d2215f0",
     "/qsc/manifest.webmanifest": "2178c68e38709768a595c30c9dc9f52256208498",
     "/qsc/polyfills.js": "03361dd40aae8d3780eec837b82e794ccedbe5e7",
     "/qsc/runtime.js": "d389dc083519ab08a4f77a568307b116f63f7af2",
     "/qsc/styles.css": "e0a5d17588ee3cd170e91b8fa24905f3432a1c4c",
-    "/qsc/vendor.js": "a9f46a37d91b349d719ed5ef044e92c2177b9f3c"
+    "/qsc/vendor.js": "efbbb45f2c7181dd53413afe3007dd47e4cb6364"
   },
   "navigationUrls": [
     {
