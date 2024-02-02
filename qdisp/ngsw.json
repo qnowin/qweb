@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1706805835553,
+  "timestamp": 1706838447552,
   "index": "/qdisp/index.html",
   "assetGroups": [
     {
@@ -361,7 +361,7 @@
     "/qdisp/primeicons.woff2": "55a4b2a5f02e362405d8d874903af0b5f6a6c15d",
     "/qdisp/runtime.js": "b0bfa28bd669a9a61e5267dc076c2e87a6a0dbff",
     "/qdisp/styles.css": "c28ed79d0dcc5a8be1edd3b7bad46ae46db46ecc",
-    "/qdisp/vendor.js": "388500948285a97b6c5e10329580769965771e55"
+    "/qdisp/vendor.js": "673a08ec6afc0c5e58c2332f4f04b39f01987ebe"
   },
   "navigationUrls": [
     {
